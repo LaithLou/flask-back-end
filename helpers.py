@@ -20,7 +20,7 @@ load_dotenv()
 BUCKET_NAME = os.environ['BUCKET_NAME']
 REGION = os.environ['REGION']
 ACCESS_KEY = os. environ['ACCESS_KEY']
-ACCESS_SECRET = os.environ[' ACCESS_SECRET']
+ACCESS_SECRET = os.environ['ACCESS_SECRET']
 UPLOAD_FOLDER = './imgs'
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
